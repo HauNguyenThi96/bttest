@@ -1,0 +1,107 @@
+/*begin common tag*/
+.body{
+	
+	background:whitesmoke;
+}
+*{
+	
+	margin:0;
+	padding:0;
+	font-family: sans-serif,arial;
+}
+@font-face{
+	src:url(../plugins/Pacifico/Pacifico-Regular.ttf);
+	font-family: Pacifico;
+}
+@font-face{
+	src:url(../plugins/Space_Mono/SpaceMono-BoldItalic.ttf);
+	font-family: Spacemono;
+}
+@font-face{
+	src:url(../plugins/Lemonada/Lemonada-SemiBold.ttf);
+	font-family: Lemonada;
+}
+@font-face{
+	src:url(../plugins/Indie_Flower/IndieFlower.ttf);
+	font-family: InderFlower;
+}
+ul{
+	list-style: none;
+	list-style-type: none;
+}
+/*end common tag*/
+/*begin header*/
+.header{
+	margin-top: 10px;
+}
+.header h1{
+	text-align: center;
+	 padding-bottom: 20px;
+	 color:#e67715;
+}
+.menu{
+	height: 50px;
+	/*background: red;*/
+}
+.menu ul{
+	text-align: center;
+	list-style-type: none;
+}
+.menu ul li{
+	margin-left:100px;
+}
+.menu ul li a{
+	font-size:19px;
+ 	float: left;
+ 	color:#337ab7;
+ 	padding:8px 12px;
+	margin-left: 40px;
+}
+.menu ul li a{
+	text-decoration: none;
+}
+.menu ul li a:hover,.menu .active>a:visited,.menu .active>a{
+	text-decoration:none;
+	background:#337ab7;
+	border-radius: 5px;
+	color:#fff;
+}
+
+/*end header*/
+/*begin main*/
+.main{
+	margin-top: 30px;
+}
+.main-demo{
+	margin-bottom: 30px;
+	position: relative;
+}
+.caption h4{
+	text-align: center;
+	font-size: 16px;
+
+}
+.caption h4 a{
+	font-weight: bold;
+	color:#353131;
+	text-transform: uppercase;
+}
+.caption h4 a:hover{
+	text-decoration: none;
+	color: rgba(88, 85, 85, 0.91);
+}
+/*end main*/
+/*footer*/
+.footer{
+	margin-top:30px;
+	text-align: center;
+	min-height: 100px;
+}
+.footer h4{
+	color:#112DCA;
+	font-family: Spacemono;
+	margin-bottom: 20px;
+}
+.footer h5{
+	font-size: 15px;
+}

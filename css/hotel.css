@@ -1,0 +1,95 @@
+/*common tag*/
+body{
+	background:#fff url('../images/classic-orginal/pattern.jpg') repeat scroll;
+
+}
+
+/*end common tag*/
+/*common class*/
+header{
+	/*background-color: #fff;*/
+	min-height: 200px;
+}
+/*end common class*/
+/*begin header*/
+.header-top{
+	padding:10px ;
+	margin-bottom: 20px;
+}
+.header-contact{
+	border:1px solid gray;
+	min-height: 80px;
+	padding: 8px 10px; 
+}
+.fa-icon{
+	float: left;
+	font-size: 30px!important;
+	color:#BC9552;
+	padding:8px;
+}
+.header-content{
+	color:#fff;
+}
+.header-content span{
+	color:rgb(156, 167, 189);
+	padding-bottom: 5px;
+}
+.header-content strong{
+	font-size: 18px;
+}
+.follow li{
+	float: left;
+	padding:5px 4px;
+}
+.follow li a{
+	font-size: 16px;
+	color:#fff;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.follow li a:hover,.follow li a:focus{
+
+	color:#ddd;
+	text-decoration: none;
+}
+.header-main{
+	border:2px solid red;
+	min-height: 400px;
+}
+.header-main-top{
+	margin-bottom: 20px;
+	
+}
+.logo-hotel{
+	padding:18px 5px;
+}
+.logo-hotel img{
+	width: 200px;
+}
+.main-menu{
+	margin-left: 120px;
+}
+.main-menu li{
+	float: left;
+	height: 100px;
+	padding:35px 15px;
+}
+.main-menu li a{
+	color:#bc9552;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+}
+.main-menu li:hover{
+	background-color:#A47E3C;
+	color:#fff;
+	cursor:pointer;
+}
+.main-menu li a:hover{
+	text-decoration: none;
+	color:#fff;	
+}
+.slider {
+	
+}
+/*end header*/
